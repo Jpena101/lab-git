@@ -11,7 +11,8 @@ Create a new directory called `git-lab/`. Then, navigate inside of that director
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+mkdir git-lab
+cd git-lab
 ```
 
 ## 2
