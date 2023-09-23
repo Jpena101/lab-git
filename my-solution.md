@@ -22,7 +22,8 @@ Initialize the directory as a git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+git init
+Reinitialized existing Git repository in /Users/jann
 ```
 
 ## 3
@@ -32,7 +33,11 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+git status 
+On branch main
+Your branch is up to date with 'origin/main'.
 
+nothing to commit, working tree clean
 ```
 
 ## 4
@@ -42,7 +47,8 @@ Create a new file called `readme.md`. Then stage that file.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+touch readme.md
+git add readme.md
 ```
 
 ## 5
@@ -52,7 +58,13 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+git status
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   readme.md
 ```
 
 ## 6
@@ -68,6 +80,16 @@ Then, check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  modified:   readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
 
@@ -78,7 +100,7 @@ Commit your changes and include a sensible commit message. Then, check your repo
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+git commit -m (Today is Wednesday)
 ```
 
 ## 8
